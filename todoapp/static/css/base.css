@@ -1,0 +1,122 @@
+body{
+    background-color:lightblue;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    padding-top:20px;
+  }
+
+  .todoAppWrapper{
+    max-width: 530px;
+    margin:0 auto;
+    background-color:white;
+    box-shadow: 0px 12px 18px 7px #777777;
+    border-radius: 10px;
+  }
+
+  a{
+    color:#595959;
+    text-decoration:none;
+  }
+  h1{
+    margin:0;
+  }
+
+  .header{
+    text-align: center;
+    padding:20px 0;
+    background-color:#214af6;
+    border-radius:10px 10px 0 0;
+    color:white;
+  }
+
+  .taskWrapper{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-top: 1px solid black;
+    align-items: center;
+  }
+
+  .taskCompletedIcon{
+    height:20px;
+    width:20px;
+    background-color: lightgreen;
+    border-radius:50%;
+    margin-right:10px;
+  }
+
+  .taskIncompletedIcon{
+    height:20px;
+    width:20px;
+    background-color: lightcoral;
+    border-radius:50%;
+    margin-right:10px;
+  }
+  .taskTitle{
+    display:flex;
+    align-items: center;
+  }
+
+  .loginAndLogout{
+    padding: 20px;
+  }
+
+  .loginAndLogout a{
+    color:lightcoral;
+  }
+
+  .editButton{
+    color:rgb(51, 117, 51);
+  }
+
+  .deleteButton{
+    color:rgb(164, 64, 64)
+  }
+
+  .searchWrapper{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    align-items: center;
+  }
+
+  .searchInput{
+    height:24px;
+    outline:none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding:2px 4px;
+    width: 160px !important; 
+  }
+
+  .searchButton{
+    border: 1px solid grey;
+    padding: 4px 10px;
+    background-color: white;
+    color:grey;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:14px;
+  }
+
+  .searchButton:hover{
+    background-color: lightblue;
+    color: white;
+  }
+
+  .addButton{
+    font-size: 32px;
+    color:grey;
+  }
+
+  label{
+    display:block;
+  }
+
+  input[type = "text"],
+  textarea{
+    width:100%;
+  }
+
+  .accountWrapper{
+    padding:20px;
+  }

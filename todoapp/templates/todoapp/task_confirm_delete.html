@@ -1,0 +1,14 @@
+{%extends 'todoapp/base.html'%}
+{%block content%}
+
+<div class = "header">
+  <h1 style = "color:white">削除</h1>
+</div>
+
+
+<form method="post" style = "padding: 20px">
+  {% csrf_token %}
+  <p>{{task.title}}を本当に削除しますか？</p>
+  <button type="submit" class = "searchButton">削除する</button>
+</form>
+{%endblock content%}
